@@ -1,8 +1,75 @@
+@keyframes whitetogreen {
+  0% {color: #FFFFFF;}
+  100% {color: #00FF00;}
+}
+@keyframes greentowhite {
+  0% {color: #00FF00;}
+  100% {color: #FFFFFF;}
+}
+@keyframes blacktowhite {
+  0% {color: #000000;}
+  100% {color: #FFFFFF;}
+}
+
 body {
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Cantarell', serif;
   color: #ffffff;
-  background-color: #50536d;
+  background-color: #000;
 }
 h1 {
   font-size: 40px;
+  padding-left: 25px;
+  /*background-color: #70636d;*/
+  border-radius: 15px;
+}
+.menubar {
+  list-style-type: none;
+  margin: auto;
+  margin-top: 20px;
+  /*background-color: #7063AD;*/
+  border-radius: 15px;
+}
+.menubar a {
+  /*float: left;*/
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  animation-name: greentowhite;
+  animation-duration: 250ms;
+
+}
+.menubar a:hover {
+  color: #00FF00;
+  /*font-style: italic;*/
+  animation-name: whitetogreen;
+  animation-duration: 500ms;
+}
+p {
+  font-size: 110%;
+  padding-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#p1 {
+  animation-name: blacktowhite;
+  animation-duration: 2s;
+}
+#p2 {
+  animation-name: blacktowhite;
+  animation-duration: 3s;
+}
+#p3 {
+  animation-name: blacktowhite;
+  animation-duration: 3.5s;
+}
+#p4 {
+  animation-name: blacktowhite;
+  animation-duration: 4s;
+}
+#p5 {
+  animation-name: blacktowhite;
+  animation-duration: 4.25s;
 }
