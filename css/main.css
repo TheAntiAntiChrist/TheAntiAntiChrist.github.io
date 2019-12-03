@@ -10,6 +10,14 @@
   0% {color: #000000;}
   100% {color: #FFFFFF;}
 }
+@keyframes blacktobluegrey {
+	0% {background-color: #000000;}
+	100% {background-color: #122122;}
+}
+@keyframes bluegreytoblack {
+	0% {background-color: #122122;}
+	100% {background-color: #000000;}	
+}
 
 body {
   font-family: 'Cantarell', sans-serif;
@@ -22,15 +30,16 @@ h1 {
   /*background-color: #70636d;*/
   border-radius: 15px;
 }
+h2 {
+  font-weight: normal;
+}
 .menubar {
-  list-style-type: none;
   margin: auto;
   margin-top: 20px;
   /*background-color: #7063AD;*/
   border-radius: 15px;
 }
 .menubar a {
-  /*float: left;*/
   padding-left: 20px;
   padding-right: 20px;
   text-decoration: none;
@@ -46,6 +55,22 @@ h1 {
   /*font-style: italic;*/
   animation-name: whitetogreen;
   animation-duration: 500ms;
+}
+img.project {
+	width: 25%;
+	border-radius: 18%;	
+}
+.project {
+	margin: 50px;
+	float: left;
+	background-color: #000000;
+	animation-name: bluegreytoblack;
+	animation-duration: 200ms;
+}
+.project:hover {
+	background-color: #122122;
+	animation-name: blacktobluegrey;
+	animation-duration: 200ms;
 }
 p {
   font-size: 110%;
