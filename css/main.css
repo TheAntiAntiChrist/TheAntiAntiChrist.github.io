@@ -16,7 +16,7 @@
 }
 @keyframes bluegreytoblack {
 	0% {background-color: #122122;}
-	100% {background-color: #000000;}	
+	100% {background-color: #000000;}
 }
 
 body {
@@ -45,7 +45,7 @@ h2 {
   text-decoration: none;
   font-size: 24px;
   text-align: center;
-  color: #fff;
+  color: #FFFFFF;
   animation-name: greentowhite;
   animation-duration: 250ms;
 
@@ -56,9 +56,13 @@ h2 {
   animation-name: whitetogreen;
   animation-duration: 500ms;
 }
+a.project_link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
 img.project {
-	width: 25%;
-	border-radius: 18%;	
+	width: 20%;
+	border-radius: 18%;
 }
 .project {
 	margin: 50px;
