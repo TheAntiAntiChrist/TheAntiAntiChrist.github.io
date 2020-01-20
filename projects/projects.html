@@ -6,25 +6,45 @@
     <script src="animations.js"></script>
     <title>rev-57: my projects</title>
   </head>
-  <body onload="on_page_load()">
-    <h1 id="title">> my projects</h1>
+  <body onload="logo_startup()">
+    <h1 id="title">></h1>
     <div class="menubar">
       <a href="../index.html">> about me</a>
       <a href="projects.html">> projects</a>
       <a href="../contact/contact.html">> contact</a>
     </div>
-	<div class="project">
-		<img src="placeholder.jpg" class="project">
-		<h2>> python3 chatroom.py</h2>
-		<p>
-			In an attempt to learn more about networking, queue structures, and multi-threading, I had a shot at creating a simple "chat room" program using Python with
-			the "sockets", "threading", and "queue" libraries. I will admit I didn't initially intend on learning about multi-threading and queues but realised <i>very</i>
-			early on that they were concepts that had to be tackled to create the program and so here I am.
-		</p>
-		<h2>> python3 img2text.py</h2>
-		<p>
-			What do you get when you combine procrastination and a free period? Failing your A-Levels. However, you also get a 20 or so line script written using the
-		</p>
-	</div>
+  <a href="chatroom/chatroom.html" class="project_link">
+  	<div class="project">
+  		<img src="placeholder.jpg" class="project">
+  		<h2>> python3 chatroom.py</h2>
+  		<p>
+  			In an attempt to learn more about networking, queue structures, and multi-threading, I had a shot at creating a simple "chat room" program using Python with
+  			the "sockets", "threading", and "queue" libraries. I will admit I didn't initially intend on learning about multi-threading and queues but realised <i>very</i>
+  			early on that they were concepts that had to be tackled to create the program and so here I am.
+  		</p>
+  	</div>
+  </a>
+  <a href="img2text/img2text.html" class="project_link">
+    <div class="project">
+      <img src="placeholder.jpg" class="project">
+      <h2>> python3 img2text.py</h2>
+  		<p>
+  			What do you get when you combine procrastination and a free period? Failing your A-Levels. However, you also get a 20 or so line script written using the PIL
+        (Python Image Library) that converts any given image (provided it is a type supported by PIL) into a text file of a customisable size.
+        Fun? I suppose. Interesting? To an extent. Pointless? Definitely. Hotel? Trivago.
+  		</p>
+    </div>
+  </a>
+  <a href="colourpicker/colourpicker.html" class="project_link">
+    <div class="project">
+      <img src="placeholder.jpg" class="project">
+      <h2>> python3 colourPicker.py</h2>
+      <p>
+        Now for a practical application of my programming skills (if you could even call them skills; more like an overly-large collection of happy little accidents that happen to make something even remotely useful).
+        Using the tkinter libraries for the GUI and the pygame library for generating the colour-picker itself, I made a program that allows you to find a colour, pick it, and get its RGB and hex value.
+        However, as it is made using some rather <i>interesting</i> methods, it doesn't like running on any OS other than Windows.
+      </p>
+    </div>
+  </a>
   </body>
 </html>
